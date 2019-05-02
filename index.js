@@ -75,6 +75,7 @@ function searchParks(query, amount) {
     .catch(error => {
         $(".error").text(`Something went wrong: ${error.message}`);
         $(".error").removeClass("hidden");
+        $(".results").addClass("hidden");
     })
 }
 

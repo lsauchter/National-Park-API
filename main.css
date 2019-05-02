@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    padding-left: 10px;
+    padding: 0 10%;
   }
   
   .hidden {
@@ -9,7 +9,9 @@ body {
 
   .error {
     color: red;
-    font-size: 18pt;
+    font-size: 20pt;
+    text-align: center;
+    padding: 15px;
   }
   
   input, .query {
