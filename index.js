@@ -49,11 +49,11 @@ function displayParks(results) {
     for (let i = 0; i < results.length; i++) {
         $(".resultParks").append(
             `<li><h3>${results[i].fullName}</h3>
-            <p>${results[i].description}</p>
+            <p class="description">${results[i].description}</p>
             <a href="${results[i].url}">${results[i].url}</a>
             <h4>Address</h4>
             ${addresses[i]}
-            </li>`
+            </li><hr>`
         )
     }
     $(".results").removeClass("hidden");
