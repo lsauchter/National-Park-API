@@ -12,6 +12,7 @@
 <body>
     <h1>National Park Search</h1>
     <form>
+        <legend>Select State(s)</legend>
             <select multiple class="query">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -64,9 +65,10 @@
                     <option value="WV">West Virginia</option>
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
-                </select>				
-        <input type="number" class="amount" value="10"><label>Number of parks to display</label>
-        <input type="submit" value="search">
+                </select>
+        <label>Number of parks to display</label>
+        <input type="number" class="amount" value="10">
+        <input type="submit" value="Search">
     </form>
     <p class="error"></p>
     <section class="results hidden">
